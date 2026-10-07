@@ -1,6 +1,6 @@
 ---
 name: graphify
-description: "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools."
+description: "Build, update, export, or query a graphify knowledge graph. Use when the user types /graphify, asks to build or refresh a code graph, or explicitly asks the graph a question (graphify query, path, explain). Do NOT use for ordinary questions about a codebase; read the code directly unless the user asks for the graph."
 argument-hint: "[path|query|subcommand]"
 model: sonnet
 allowed-tools:
